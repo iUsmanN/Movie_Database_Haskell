@@ -19,7 +19,7 @@ The UserInput module handles the Main Menu of the project. It contains the funct
 
 
 ## Downloading Data
-The HTTP module contains the functions used to generate the API String and download against the URL (String). The API endpoint used to download the data is http://www.omdbapi.com/?t=[title] and the API Key used is 2521df13. HTTP- Conduit and Byte String dependencies are used for this purpose. The Aeson dependency is later used to parse the data in the Parse.hs file and make FilmJSON and RatingJSON objects. In order to handle the Capital cases in the JSON field labels, custom deriving method is defined to creating each of the Haskell objects.
+The HTTP module contains the functions used to generate the API String and download against the URL (String). The API endpoint used to download the data is http://www.omdbapi.com/?t=[title] and the API Key used is [HIDDEN]. HTTP- Conduit and Byte String dependencies are used for this purpose. The Aeson dependency is later used to parse the data in the Parse.hs file and make FilmJSON and RatingJSON objects. In order to handle the Capital cases in the JSON field labels, custom deriving method is defined to creating each of the Haskell objects.
   
 
 ## Parsing Data
