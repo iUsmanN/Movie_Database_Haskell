@@ -6,9 +6,13 @@ This project downloads and parses JSON data from the OMBD Films API. The Menu as
 This data is parsed to calculate average ratings and extract actors to update the Films and Actors database. In each film object, ‘Title’, ‘Year’, ‘Runtime’, ‘Actor’ and ‘Average Rating’ fields are stored in the database. The database consists of two tables: Films and Actors. Both these tables have a many-to-many relationship between them and are based on SQLite.
 
 The four main functionalities provided in the project are:
+
 1 – Search Movies by Title
+
 2 – Search Actors by Name
+
 3 – Get All Films in the Local Database 
+
 4 – Get All Actors in the Local Database
 
 In order to compile and build the project, simply run the command stack build in the project directory followed by the command stack exec fpproject-exe.
@@ -34,3 +38,7 @@ The database design is as follows, a films table containing the fields: title, y
 Hence, we write Haskell functions to create and manage the database. Such functions include creating tables if they do not exist; processing Haskell data types to and from SQL; data insertion statements; and check functions if there are already existing entries or are not present in the database. Other methods were created with the intention to allow the user to query the database, such as searching for films an actor has performed in or retrieving all films in the database.
 
 The implementation of the code to create the database was done with Haskell on Sublime Text 3, where Haskell stack in command prompt was used to run the project and DB Browser SQLite was used to verify the database entries.
+
+
+-----------------------
+Usman Nazir
